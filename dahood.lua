@@ -2,21 +2,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "ReeqyHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 
-
-local Dahood = Window:MakeTab({
-	Name = "Dahood Scripts",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-
-
-
-
-
-
-
-
 local Dahood = Window:MakeTab({
     Name = "DaHood",
     Icon = "rbxassetid://4483345998",
