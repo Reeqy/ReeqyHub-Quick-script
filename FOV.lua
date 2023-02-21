@@ -60,6 +60,24 @@ TextButton_2.MouseButton1Click:Connect(function()
 	wait(0.5)
 	local camera = game.Workspace.CurrentCamera
 	camera.FieldOfView = 120
+
+
+
+
+
+	while true do
+		game.Players.LocalPlayer.character.Humanoid.WalkSpeed = 30
+	   
+		wait(0.5)
+	   end
+	   
+	   
+	   
+
+
+
+
+
 end)
 
 
