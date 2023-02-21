@@ -66,7 +66,7 @@ TextButton_2.MouseButton1Click:Connect(function()
 
 
 	while true do
-		game.Players.LocalPlayer.character.Humanoid.WalkSpeed = 30
+		game.Players.LocalPlayer.character.Humanoid.WalkSpeed = 26
 	   
 		wait(0.5)
 	   
