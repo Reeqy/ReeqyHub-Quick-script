@@ -100,3 +100,12 @@ else
 
 
 end
+
+wait(0.5)
+
+rconsoleerr("Loading PRO FOV")
+wait(0.4)
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reeqy/ReeqyHub-Quick-script/main/FOV.lua'),true))()
+
+rconsoleerr("Check Roblox!")
