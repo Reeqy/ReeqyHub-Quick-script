@@ -22,7 +22,17 @@ Frame.Size = UDim2.new(0, 271, 0, 152)
 
 UIGradient.Parent = Frame
 
-
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.696136713, 0, 0.250617296, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "Enable PRO FOV?"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
 
 
@@ -62,18 +72,23 @@ TextButton_2.MouseButton1Click:Connect(function()
 	camera.FieldOfView = 120
 
 
-
-
-
 	while true do
 		game.Players.LocalPlayer.character.Humanoid.WalkSpeed = 26
-	   
-		
-	   wait(0.5)
-	   
-	   end
 
-	end)
+
+		wait(0.5)
+
+	end
+
+
+
+end)
+
+
+
+
+
+
 	   
 
 
