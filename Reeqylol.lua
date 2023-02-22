@@ -108,8 +108,18 @@ wait(0.4)
 
 rconsoleerr("Pressing Yes will enable PRO FOV + Speed Boost")
 
-wait 1
+wait (1)
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Reeqy/ReeqyHub-Quick-script/main/FOV.lua'),true))()
+
+
+
+
+rconsoleerr("Loading ESP")
+
+
+
+
+
 
 rconsoleerr("Check Roblox!")
